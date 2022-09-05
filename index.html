@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Clima</title>
+  </head>
+  <body background="images/smartphone.jpg">
+    <section>
+      <div class="container">
+
+        <div class="barra" id="barra">
+          <form class="form-barra" id="form-barra">
+            <input
+              type="text"
+              autocomplete="off"
+              placeholder="escoge tu ciudad"
+              class="barra-busqueda"
+              id="barra-busqueda"
+              autofocus
+            />
+          </form>
+        </div>
+
+        <div class="contenedor-datos" id="contenedor-datos">
+          <div class="hora" id="hora"></div>
+          <div class="ciudad" id="ciudad"></div>
+          <div class="fecha" id="fecha"></div>
+          <div class="clima" id="clima"></div>
+          <div class="temperatura" id="temperatura"></div>
+          <div class="rango" id="rango"></div>
+        </div>
+        <div class="fot">
+          <p>por Alexis De La Cruz Hernández</p>
+        <a href="https://github.com/alexgrunge" target="_blank"
+          >Github<ion-icon name="logo-github"></ion-icon
+        ></a>
+        </div>
+
+      </div>
+    </section>
+    <script src="main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
